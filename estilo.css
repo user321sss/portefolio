@@ -1,0 +1,284 @@
+.logo , img{
+         
+         float: left;
+         padding: 13px;
+}
+.logos{
+         width: 70px;
+         height: 70px;
+}
+.menu{
+         float: right;
+         padding: 40px;
+         height: 100px;
+}
+.menu , ul{
+        text-decoration: none;
+}
+.menu , ul , li , a {
+         display: inline;
+         text-decoration: none;
+         margin-right: 15px;
+         color:black;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.limpa{
+         clear: both;
+}
+#social  {
+         width: 150px;
+         height: 500px;
+         float: left;
+         
+}
+#social , img , a{
+         height: 50px;
+         width: 50px;
+         padding: 10px;
+         margin-bottom: 10px;
+}
+
+.about{
+         float: right;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;   
+        margin-top: 64px;
+        margin-right: 220px;
+}
+.avatar{
+         float: left;
+         height: 400px;
+         width: 390px;
+         margin-left: 90px;
+         margin-top: -15px;
+         border: 3px solid black;
+         border-radius: 30%;
+       
+}
+.imagemprojeto{
+         height: 200px;
+         width: 200px;
+         border-radius: 20%;
+         margin-left: 170px;
+        
+}
+.projetos{
+    
+         height: 240px;
+         padding: 10px;
+         margin-top: 20px;
+}
+.titulotrabalho{
+         font-size: 50px;
+         padding: 10px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif; 
+         text-align: center;
+
+}
+.html{
+         width: 200px;
+         height: 230px;
+         float: left;
+
+}
+.imagemskill{
+         width: 170px;
+         height: 100px;
+         float: left;
+}
+.nomeskill{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         text-align: center;
+         margin-left: 30px;
+         float: left;
+}
+.percentagem{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         text-align: center;
+         margin-left: 60px;
+         float: left;
+}
+.php{
+         width: 200px;
+         height: 230px;
+         float: right;
+
+}
+.java{
+         width: 200px;
+         height: 230px;
+         float: right;
+         margin-right: 350px;
+}
+.footer{
+         margin-top: 20px;
+         margin-left: 500px;
+         height: 100px;
+         padding-left: 70px;
+}
+.parte1{
+         float: left;
+         width: 250px;
+         background-color: rgba(218, 210, 210, 0.753);
+         border-radius: 14%;
+         padding: 40px;
+         margin-left: 350px;
+         border: 3px solid black;
+}
+.parte2{
+         float: right;
+        
+         
+}
+.thanks{
+        width: 350px;
+        height: 400px;
+        padding: 90px;
+}
+.titulofrom{
+        font-size: 25px;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.nome{
+        border-style: ridge;
+        width: 200px;
+        height: 20px;
+        border-radius: 10px;
+       
+}
+.email{
+        transition: 1s;
+        border-style: ridge;
+        height: 40px;
+        width: 240px;
+        border-radius: 10px;
+}
+.nome:hover{
+        border-style: ridge;
+        transition: 0.8s;
+        width: 210px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 10px;
+       
+}
+.email:hover{
+        transition: 0.8s;
+        border-style: ridge;
+        height: 50px;
+        width: 240px;
+        padding: 10px;
+        border-radius: 10px;
+}
+.tags{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+}
+.btn{
+        color:white;
+        background-color: black;
+        cursor: pointer;
+        padding: 9px;
+        border: 1px solid white;
+        border-radius: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+}
+.btn:hover{
+        transition: 0.8s;
+        color :black;
+        background-color: white;
+        cursor: pointer;
+        padding: 12px;
+        border-radius: 9px;
+        border: 1px solid black ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;       
+}
+.modal-container {
+       
+        position: fixed;
+        top: 30px;
+        display: none;
+        z-index: 999;
+        justify-content: center;
+      
+        
+          }
+      
+      .modal {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        width: 50%;
+        border: 3px solid black;
+      }
+      
+      .active {
+        display: flex;
+      }
+      
+      .active .modal {
+        animation: modal .4s;
+      }
+      
+      @keyframes modal {
+        from {
+          opacity: 0;
+          transform: translate3d(0, -60px, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      .texto-modal{
+              font-size: 19px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .titulo-modal{
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btns{
+        background-color: black;
+        border-radius: 8px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 3px;
+        cursor: pointer;
+}
+
+.btnClose{
+        color: white;
+        background-color: black;
+        border: 2px solid black;
+        text-align: center;
+        cursor: pointer;
+     
+}
+.btns:hover{
+        transition: 0.8s;
+        background-color: white;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 3px;
+        cursor: pointer;
+}
+
+.btnClose:hover{
+        transition: 0.8s;
+        color: black;
+        background-color: white;
+        border: 2px solid white;
+        text-align: center;
+        cursor: pointer;
+     
+}
